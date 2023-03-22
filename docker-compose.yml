@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  gotenberg:
+    build: .
+    ports:
+      - 3999:3000
